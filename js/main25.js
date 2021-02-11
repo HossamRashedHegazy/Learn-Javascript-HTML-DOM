@@ -1,4 +1,4 @@
-/*global  document, window   */
+/*global  document, console   */
 
 /*
  * ClientHeight, CleintWidth
