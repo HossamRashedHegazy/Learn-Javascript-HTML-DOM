@@ -1,0 +1,9 @@
+*,body {
+    text-align: center;
+    text-transform: capitalize !important;
+}
+
+hr {
+    width: 50%;
+    margin: 20px auto;
+}
