@@ -13,15 +13,18 @@
  *
  * no Scroll مبتحسابش الاسكراول
  *
+ **************************************************
  *
+ * scrollHeight | scrollWidth
+ *
+ * ALL Area Include Invisible Area
+ *
+ * ude Padding بتحساب البادنج بتاع العنصر
+ *
+ * No Border مبتحسابش البوردار
+ *
+ * No Margin
  * */
-
-
-var toKnow = document.getElementById('know');
-
-console.log(toKnow.clientHeight);
-
-console.log(toKnow.clientWidth);
 
 var myMainDiv = document.getElementById('main');
 
@@ -29,5 +32,10 @@ var myMainDiv = document.getElementById('main');
 
 console.log(myMainDiv.clientHeight);
 
-
 console.log(myMainDiv.clientWidth);
+
+// بيحساب مساحة العنصار حتى المساحة المختفية من الصفحة
+
+console.log(myMainDiv.scrollHeight);
+
+console.log(myMainDiv.scrollWidth);

@@ -7,16 +7,25 @@
 
     <link rel="icon" href="images/favicon.jpg">
 
-    <title>Element | ClientHeight, CleintWidth</title>
+    <title>Element | ScrollHeight, ScrollWidth</title>
 
     <link rel="stylesheet" href="css/main.css">
     <style>
         .custom {
+            width: 300px;
+            height: 300px;
             padding: 20px;
             background-color: #eee;
             border: 10px solid #ccc;
             margin: 30px;
             overflow: scroll;
+        }
+
+        .child {
+            width: 800px;
+            height: 800px;
+            background-color: #00f;
+            color: #fff;
         }
 
     </style>
@@ -34,7 +43,9 @@
 
     <div id="monster2">monster2</div>-->
 
-    <div id="main" class="custom">My Main Div</div>
+    <div id="main" class="custom">
+        <div class="child">My child Div</div>
+    </div>
 
 
     <!--<div id="">
@@ -73,7 +84,7 @@
     </form><br>
 
 
-    <script src="js/main24.js"></script>
+    <script src="js/main25.js"></script>
 
 </body>
 
