@@ -7,35 +7,37 @@
 
     <link rel="icon" href="images/favicon.jpg">
 
-    <title>Element | offsetHeight, offsetWidth</title>
+    <title>Element | scrollleft, scrollTop</title>
 
     <link rel="stylesheet" href="css/main.css">
     <style>
+        body {
+            height: 4000px;
+        }
+
         .custom {
             width: 300px;
             height: 300px;
-            padding: 20px;
+            position: fixed;
+            top: 20px;
+            left: 20px;
             background-color: #eee;
-            border: 10px solid #ccc;
-            margin: 30px;
-            overflow: scroll;
+            color: #f00;
         }
 
-        .child {
-            width: 800px;
-            height: 800px;
-            background-color: #00f;
-            color: #fff;
+        .active {
+            background-color: #00f
         }
 
     </style>
 </head>
 
 
-<body id="know">
-
+<body>
+    <!--
     <div class="hossam"></div>
-    <!--<button id="power">power Monster</button>
+
+    <button id="power">power Monster</button>
 
     <button id="main">Eat Monster</button>
 
@@ -43,9 +45,7 @@
 
     <div id="monster2">monster2</div>-->
 
-    <div id="main" class="custom">
-        <div class="child">My child Div</div>
-    </div>
+    <div id="main" class="custom">My child Div </div>
 
 
     <!--<div id="">
@@ -81,10 +81,11 @@
     <div id="test9" class=""></div>
     <form>
         <input id="myInput" type="text">
+
     </form><br>
 
 
-    <script src="js/main26.js"></script>
+    <script src="js/main27.js"></script>
 
 </body>
 
