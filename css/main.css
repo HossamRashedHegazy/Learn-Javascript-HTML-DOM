@@ -1,4 +1,5 @@
-*,body {
+*,
+body {
     text-align: center;
     text-transform: capitalize !important;
 }
